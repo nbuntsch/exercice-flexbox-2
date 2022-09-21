@@ -46,3 +46,95 @@ video {
 /* ====================================
 // base rules
 // ==================================== */
+
+div {
+  font-size: 25px;
+}
+
+body {
+  padding: 10px;
+}
+
+.section {
+  background-color: #ebead2;
+  margin-bottom: 20px;
+}
+
+.box {
+  background-color: white;
+  border: 1px solid #979797;
+  text-align: center;
+}
+
+.section-1 {
+  display: flex;
+  padding: 10px 0;
+}
+
+.section-1 div {
+  width: 25%;
+}
+
+.section-2 {
+  display: flex;
+  padding: 10px 0;
+  flex-wrap: wrap;
+}
+
+.section-2 div {
+  width: 50%;
+}
+
+.section-3 {
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.section-3 div {
+  padding: 5px 20px;
+  margin-right: 15px;
+}
+
+.section-4 {
+  display: flex;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.section-4 div {
+  width: 49%;
+  margin-bottom: 10px;
+}
+
+.section-5 {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 10px;
+}
+
+.section-5 div {
+  margin-right: 10px;
+}
+
+.section-5 .one {
+  padding: 10px 20px;
+}
+
+.section-5 .two {
+  padding: 34px 20px;
+}
+
+.section-5 .three {
+  padding: 20px 20px;
+}
+
+.section-5 .four {
+  padding: 45px 20px;
+  margin: 0;
+}
