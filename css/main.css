@@ -110,3 +110,31 @@ body {
   width: 49%;
   margin-bottom: 10px;
 }
+
+.section-5 {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 10px;
+}
+
+.section-5 div {
+  margin-right: 10px;
+}
+
+.section-5 .one {
+  padding: 10px 20px;
+}
+
+.section-5 .two {
+  padding: 34px 20px;
+}
+
+.section-5 .three {
+  padding: 20px 20px;
+}
+
+.section-5 .four {
+  padding: 45px 20px;
+  margin: 0;
+}
