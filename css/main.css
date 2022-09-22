@@ -46,3 +46,64 @@ video {
 /* ====================================
 // base rules
 // ==================================== */
+
+.section {
+  background: #ebead2;
+  margin: 15px;
+  display: flex;
+  width: 1698px;
+}
+
+.box {
+  background: #ffffff;
+  border: 1px solid #979797;
+  font-family: Lato-Bold;
+  font-size: 50px;
+  color: #000000;
+  letter-spacing: 0.31px;
+  text-align: center;
+  line-height: 75px;
+}
+
+.section-1 {
+  height: 106px;
+  padding: 15px 0;
+}
+
+.section-1 .box {
+  width: 425px;
+  height: 76px;
+}
+
+.section-2 {
+  padding: 15px 0;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.section-2 .box {
+  height: 76px;
+  width: 849px;
+}
+
+.section-3 {
+  padding: 15px;
+  justify-content: center;
+}
+
+.section-3 .box {
+  width: 100px;
+  height: 76px;
+  margin: 0 15px;
+}
+
+.section-4 {
+  padding: 15px 30px;
+  height: 182px;
+  flex-wrap: wrap;
+}
+
+.section-4 .box {
+  width: 804px;
+  height: 76px;
+}
