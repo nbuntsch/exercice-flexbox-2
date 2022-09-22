@@ -98,12 +98,45 @@ video {
 }
 
 .section-4 {
-  padding: 15px 30px;
-  height: 182px;
+  padding: 0 15px;
+  height: 212px;
   flex-wrap: wrap;
 }
 
 .section-4 .box {
-  width: 804px;
+  width: calc(50% - 30px);
+  height: 75px;
+  margin: 15px;
+}
+
+.section-5 {
+  height: 230px;
+  padding: 15px 0;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.section-5 .box {
+  width: 100px;
+  margin-right: 15px;
+}
+
+.b1 {
   height: 76px;
+  line-height: 75px;
+}
+
+.b2 {
+  height: 150px;
+  line-height: 150px;
+}
+
+.b3 {
+  height: 100px;
+  line-height: 100px;
+}
+
+.b4 {
+  height: 200px;
+  line-height: 200px;
 }
